@@ -1,0 +1,59 @@
+* {
+    font-family: "bebas Neue", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*start fonts*/
+.bebas{
+    font-family: "bebas Neue", sans-serif;
+}
+.pacifico {
+    font-family: "Pacifico", cursive;
+}
+.Epilogue {
+    font-family: "epilogue", cursive;
+}
+/*end fonts*/
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.botton {
+    display: inline-block;
+    background: #A5141A;
+    border-radius: 3px;
+    padding: 10px 30px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+
+/*start header*/
+.header {
+    background: red;
+    height: 85vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url(../img/main.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.header-content {
+    height: 100%;
+    align-content: center;
+}
+.header-text-1 {
+    color: #ffb91a;
+    font-size: 30px;
+}
+.header-text-2 {
+    color: white;
+    font-size: 80px;
+    line-height: 1.0;
+    margin: 25px 0;
+}
+/*end header*/
