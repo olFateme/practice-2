@@ -83,6 +83,30 @@ body {
     display: flex;
     justify-content: flex-start;
 }
+.pages {
+    align-content: center;
+}
+.pages:hover ul{
+    display: block;
+}
+.dropdown {
+    display: none;
+    list-style-type: none;
+    width: 150px;
+    background: #ffb91a;
+    position: fixed;
+    top: 65px;
+    padding: 10px;
+}
+.dropdown-item {
+    padding: 10px 0;
+}
+.dropdown-item a{
+    color: black;
+}
+.dropdown-item:hover a{
+    color: white;
+}
 .navbar-cart {
     width: 10%;
     display: flex;
