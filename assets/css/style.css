@@ -26,14 +26,19 @@ body {
 }
 
 .botton {
-    display: inline-block;
+    /*display: inline-block;*/
     background: #A5141A;
     border-radius: 3px;
     padding: 10px 30px;
+    margin: 10px 0px;
     font-size: 18px;
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+}
+.botton:hover {
+    background: #ffb91a;
+    transition-duration: 0.4s;
 }
 
 /*start navbar*/
@@ -171,3 +176,63 @@ body {
     letter-spacing: 1px;
 }
 /*end category*/
+
+/*start special*/
+.special{
+    background-image: url("../img/special-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 0;
+}
+.special-content {
+    display: flex;
+    justify-content: space-between;
+}
+.special-content-column {
+    width: 49%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.special-item-1 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/special-01.jpg);
+}
+.special-item-2 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/special-02.jpg);
+}
+.special-item-3 {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/special-03.jpg);
+}
+.special-card {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*margin: 10px 0;*/
+    border-radius: 15px;
+    padding: 130px 40px;
+    color: white;
+}
+.special-card-title{
+    font-size: 50px;
+    line-height: 1.0;
+}
+.special-card-text {
+    font-size: 15px;
+    font-weight: 200;
+    margin: 15px 0;
+    line-height: 1.4;
+}
+.special-card-price {
+    font-size: 30px;
+    color: #ffb91a;
+    display: block;
+    margin-bottom: 40px;
+}
+.special-card-mini {
+    padding: 40px !important;
+}
+.special-card-mini span{
+    margin-bottom: 0 !important;
+}
+/*end offer*/
