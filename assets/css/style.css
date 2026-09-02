@@ -19,6 +19,15 @@ body {
 }
 /*end fonts*/
 
+/*colors*/
+.red {
+    color: #A5141A !important;
+}
+.yellow {
+    color: #FFC107 !important;
+}
+
+/*components*/
 .container {
     width: 80%;
     margin: 0 auto;
@@ -39,6 +48,33 @@ body {
 .botton:hover {
     background: #ffb91a;
     transition-duration: 0.4s;
+}
+
+.info-title{
+    font-size: 45px;
+    font-weight: 550;
+    line-height: 1.0;
+    width: 60%;
+    letter-spacing: ;
+}
+.info-text {
+    font-size: 15px;
+    font-weight: 200;
+    margin: 15px 0;
+    line-height: 1.4;
+    width: 70%;
+    font-weight: 200;
+}
+.info-price {
+    font-size: 30px;
+    display: block;
+    margin-bottom: 40px;
+}
+.info-heading {
+    font-size: 28px;
+    font-weight: 150;
+    color: #A5141A;
+    margin-bottom: 30px;
 }
 
 /*start navbar*/
@@ -213,22 +249,7 @@ body {
     padding: 130px 40px;
     color: white;
 }
-.special-card-title{
-    font-size: 50px;
-    line-height: 1.0;
-}
-.special-card-text {
-    font-size: 15px;
-    font-weight: 200;
-    margin: 15px 0;
-    line-height: 1.4;
-}
-.special-card-price {
-    font-size: 30px;
-    color: #ffb91a;
-    display: block;
-    margin-bottom: 40px;
-}
+
 .special-card-mini {
     padding: 40px !important;
 }
@@ -236,3 +257,27 @@ body {
     margin-bottom: 0 !important;
 }
 /*end offer*/
+
+/*start Concerning*/
+.concerning {
+
+}
+.concerning-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0;
+}
+.concerning-img {
+    width: 55%
+}
+.concerning-img img{
+    width: 85%;
+}
+.concerning-info {
+    display: flex;
+    flex-direction: column;
+    align-items: self-start;
+    width: 45%;
+    margin: 0 40px;
+}
+/*end Concerning*/
