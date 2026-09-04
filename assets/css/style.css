@@ -29,6 +29,9 @@ body {
 .white {
     color: white !important;
 }
+.black {
+    color: black;
+}
 
 /*components*/
 .container {
@@ -299,3 +302,67 @@ body {
     text-align: center;
 }
 /*end delivery*/
+
+/*star recommended*/
+.recommended {
+    background: #F8F8F8;
+    padding: 80px 0;
+}
+.recommended-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 20px 0;
+}
+.recommended-items {
+    display: flex;
+    flex-wrap: wrap;
+}
+.recommended-item {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border-radius: 10px;
+    width: 46%;
+    margin: 10px;
+    box-shadow: rgba(149, 157, 165, .2) 0 8px 24px;
+    border: 1px solid white;
+}
+.recommended-item:hover {
+    border: 1px solid #ffb91a;
+}
+.recommended-item-img {
+    width: 50%;
+}
+.recommended-item-img img {
+    width: 90%;
+    margin: 30px;
+    /*justify-items: center;*/
+    /*align-items: center;*/
+}
+.recommended-item-info {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 40px;
+}
+.item-title {
+    font-size: 25px;
+}
+.item-price {
+    color: #A5141A;
+    margin: 20px 0;
+    font-size: 28px;
+}
+.item-text {
+    color: gray;
+    margin-bottom: 16px;
+}
+.item-botton {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+/*end recommended*/
