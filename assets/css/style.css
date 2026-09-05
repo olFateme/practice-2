@@ -2,6 +2,7 @@
     font-family: "bebas Neue", sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     height: 10000px;
@@ -225,6 +226,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     padding: 80px 0;
 }
 .special-content {
@@ -250,7 +252,6 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    /*margin: 10px 0;*/
     border-radius: 15px;
     padding: 130px 40px;
     color: white;
@@ -291,6 +292,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     padding: 170px 0;
 }
 .delivery-content {
@@ -319,28 +321,29 @@ body {
 .recommended-items {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 .recommended-item {
     display: flex;
     justify-content: space-between;
     background: white;
-    border-radius: 10px;
-    width: 46%;
+    border-radius: 12px;
+    width: 48%;
     margin: 10px;
     box-shadow: rgba(149, 157, 165, .2) 0 8px 24px;
-    border: 1px solid white;
+    border: 1px solid transparent;
 }
 .recommended-item:hover {
     border: 1px solid #ffb91a;
 }
 .recommended-item-img {
     width: 50%;
+    align-content: center;
+    justify-content: center;
 }
 .recommended-item-img img {
     width: 90%;
-    margin: 30px;
-    /*justify-items: center;*/
-    /*align-items: center;*/
+    margin: 0 25px;
 }
 .recommended-item-info {
     display: flex;
@@ -353,12 +356,12 @@ body {
 }
 .item-price {
     color: #A5141A;
-    margin: 20px 0;
+    margin: 15px 0;
     font-size: 28px;
 }
 .item-text {
     color: gray;
-    margin-bottom: 16px;
+    margin-bottom: 15px;
 }
 .item-botton {
     text-decoration: none;
@@ -366,3 +369,69 @@ body {
     font-size: 20px;
 }
 /*end recommended*/
+
+/*satart feedback*/
+.feedback {
+    background-image: url("../img/special-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 80px 0;
+}
+.feedback-content {
+
+}
+.feedback-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.feedback-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.feedback-card {
+    background: white;
+    border-radius: 10px;
+    width: 49%;
+    margin: 10px 0;
+    box-shadow: rgba(149, 157, 165, .2) 0 8px 24px;
+    display: flex;
+}
+.feedback-card {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+.feedback-comment p {
+    width: 90% !important;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.feedback-client {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.client-name {
+    color: #A5141A;
+    font-size: 20px;
+    margin: 0 20px;
+}
+.feedback-client img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+/*end feedback*/
