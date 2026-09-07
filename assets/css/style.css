@@ -41,8 +41,7 @@ body {
     height: 100%;
 }
 
-.botton {
-    /*display: inline-block;*/
+.button {
     background: #A5141A;
     border-radius: 3px;
     padding: 10px 30px;
@@ -51,10 +50,10 @@ body {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
-}
-.botton:hover {
-    background: #ffb91a;
     transition-duration: 0.4s;
+}
+.button:hover {
+    background: #ffb91a;
 }
 
 .normal-title{
@@ -363,7 +362,7 @@ body {
     color: gray;
     margin-bottom: 15px;
 }
-.item-botton {
+.item-button {
     text-decoration: none;
     color: black;
     font-size: 20px;
@@ -435,3 +434,25 @@ body {
 }
 
 /*end feedback*/
+
+/*start download*/
+.download {
+    background: #A5141A;
+    color: white;
+    font-size: 26px;
+    font-weight: 400;
+    padding: 40px 0;
+}
+.download-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.download-content a{
+    background: #ffb91a;
+}
+.download-content a:hover{
+    background: white;
+    color: black;
+}
+/*end download*/
